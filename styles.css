@@ -1,6 +1,5 @@
-h1{color:blue;} 
-/* esto es un comentario */
-/* esto es 
-* un comentario
-* de multilinea1
-*/
+body{background-color: black;}
+*{color:white;}
+h1{font-size: 30px;
+color:#e1c598;}
+#foto-body{width: 10%; height:10%;}
