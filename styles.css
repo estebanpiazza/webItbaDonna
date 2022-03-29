@@ -1,5 +1,46 @@
-body{background-color: black;}
+body{background-color: darkblue;}
 *{color:white;}
 h1{font-size: 30px;
 color:#e1c598;}
-#foto-body{width: 10%; height:10%;}
+#foto-body{width: 30%; display:none}
+#modeloDeCaja{
+    width: 300px;
+    border: 10px solid  red; /* una propiedad puede recibir varios valores*/
+    margin: 20px;
+  }
+#icono-contacto{
+position: fixed;
+bottom: 30px;
+right: 20px;
+}
+
+menu{
+    list-style-type: none;
+}
+menu > a > li{
+    display: inline;
+}
+
+#logo-header{
+    width: 5%;
+}
+footer{
+    position: fixed;
+    bottom:0px;
+    
+}
+.col{border:1px solid white}
+.col-8{border:1px solid white}
+.btn-primary{background-color: grey;border:grey;}
+table{border:1px solid white;}
+th{border:1px solid white;}
+td{border:1px solid white;}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: black;
+    }
+    #foto-body{
+        display:inline
+    }
+  }
